@@ -13,19 +13,27 @@
 
     <link rel="stylesheet" type="text/css" href="{{assets}}/css/screen.css" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" />
 </head>
 <body class="{{body_class}}">
 
     <header class="site-head">
         <div class="vertical">
             <div class="site-head-content inner">
-                <h1 class="blog-title"><a href="/">{{site.title}}</a></h1>
-                <div class="links">
+                <!--<h1 class="blog-title"><a href="/">{{!site.title}}</a></h1>-->
+                <div class="logo"><a href="/"><img alt="{{site.title}}" title="{{site.title}}" src="{{assets}}/img/logo.png" /></a></div>
+                <div class="main-menu">
                     <ul>
-                        <li><a href="https://github.com/universalviewer" title="https://github.com/universalviewer" target="_blank"><i class="ico icon-github"></i></a></li>
-                        <li><a href="https://twitter.com/universalviewer" title="https://twitter.com/universalviewer" target="_blank"><i class="ico icon-twitter"></i></a></li>
-                        <li><a href="https://github.com/universalviewer" title="https://groups.google.com/forum/#!forum/universalviewer" target="_blank"><i class="ico icon-google"></i></a></li>
+                        <li><a href="/about.html">about</a></li>
+                        <li><a href="/tutorials.html">tutorials</a></li>
+                        <li><a href="/faq.html">faq</a></li>
+                    </ul>
+                </div>
+                <div class="icons">
+                    <ul>
+                        <li><a href="{{site.links.github}}" title="{{site.links.github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <li><a href="{{site.links.twitter}}" title="{{site.links.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="{{site.links.google}}" title="{{site.links.google}}" target="_blank"><i class="fa fa-google"></i></a></li>
                     </ul>
                 </div>
             </div>

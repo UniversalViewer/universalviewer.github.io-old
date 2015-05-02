@@ -155,12 +155,12 @@ h6 {
 }
 
 a {
-    color: #5ba4e5;
+    color: #3e114e;
     transition: color ease 0.3s;
 }
 
 a:hover {
-    color: #5ba4e5;
+    color: #3e114e;
 }
 
 h1 a, h2 a, h3 a,
@@ -393,32 +393,51 @@ margin on the iframe, cause it breaks stuff. */
     text-align: center;
 }
 
-.site-head .links{
+.site-head .logo{
+    margin: 2.6em 0 0 0;
+}
+
+.site-head .main-menu{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.site-head .main-menu ul{
+    padding: 0;
+}
+
+.site-head .main-menu li{
+    margin: 0;
+    padding: 0 1.4rem 0 0;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.site-head .icons{
     background-image: url('header_line.png');
     background-repeat: repeat-x;
 }
 
-.site-head ul{
+.site-head .icons ul{
     width: 134px;
     margin: 0 auto;
-    padding: 0 0 0 7px;
+    padding: 0;
     background: #fff;
 }
 
-.site-head li{
+.site-head .icons li{
     margin: 0;
     padding: 0 0.9rem 0 0;
     list-style-type: none;
     display: inline-block;
 }
 
-.site-head li a{
+.site-head .icons li a{
     font-size: 2.25rem;
     color: #BBC7CC;
 }
 
-.site-head li a:hover {
-    color: #5ba4e5;
+.site-head .icons li a:hover {
+    color: #3e114e;
 }
 
 .blog-logo {
@@ -646,7 +665,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .post-footer .share a:hover {
-    color: #5ba4e5;
+    color: #3e114e;
 }
 
 
@@ -741,7 +760,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .site-footer a:hover {
-    color: #5ba4e5;
+    color: #3e114e;
 }
 
 .poweredby .icon-ghost {
@@ -793,7 +812,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .subscribe:hover:before {
-    color: #5ba4e5;
+    color: #3e114e;
 }
 
 /* CSS tooltip saying "Subscribe!" - initially hidden */
@@ -808,7 +827,7 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 1.1rem;
     line-height: 1em;
     text-align: center;
-    background: #5ba4e5;
+    background: #3e114e;
     border-radius:20px;
     box-shadow: 0 1px 4px rgba(0,0,0,0.1);
     transition: opacity 0.3s ease, top 0.3s ease;
@@ -819,7 +838,7 @@ margin on the iframe, cause it breaks stuff. */
     content:"";
     border-width:5px 5px 0 5px;
     border-style:solid;
-    border-color: #5ba4e5 transparent;
+    border-color: #3e114e transparent;
     display:block;
     position:absolute;
     bottom:-4px;

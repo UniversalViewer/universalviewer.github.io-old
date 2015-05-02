@@ -17,7 +17,7 @@ var blogPostTemplate =
 $(function() {
     fitVids();
     mailto();
-    blog();
+    //blog();
 });
 
 function fitVids() {
