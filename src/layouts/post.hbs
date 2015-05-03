@@ -9,10 +9,18 @@ body_class: "post-template"
     <h1 class="post-title">{{title}}</h1>
 
     <section class="post-content">
-        {{#markdown}}
-        {{body}}
-        {{/markdown}}
+        {{#gh-markdown}}
+            {{body}}
+        {{/gh-markdown}}
     </section>
+
+    <footer class="post-footer">
+
+        {{>author}}
+
+        {{>share}}
+
+    </footer>
 
 </article>
 
