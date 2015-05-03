@@ -1,20 +1,20 @@
 [
             {
-                "posted": "Thu Jan 30 2014 00:00:00 GMT+0000 (GMT Standard Time)",
+                "posted": "Wed Jan 29 2014 19:00:00 GMT-0500 (EST)",
                 "posted-formatted": "03 May 2015",
                 "title": "Third!",
                 "url": "dist/blog/third-post.json",
                 "content": "<p>Basic useful feature list:</p><ul><li>Ctrl/Cmd + S to save the file</li><li>Drag and drop a file into here to load it</li><li>File contents are saved in the URL so you can share files</li></ul><p>I&#x27;m no good at writing sample / filler text, so go write something yourself.</p><p>Look, a list!</p><ul><li>foo</li><li>bar</li><li>baz</li></ul><p>And here&#x27;s some code!</p><p>&#x60;&#x60;&#x60;javascript<br>$(function(){<br>  $(&#x27;div&#x27;).html(&#x27;I am a div.&#x27;);<br>});<br>&#x60;&#x60;&#x60;</p><p>This is <a href='https://github.com/jbt/markdown-editor'>on GitHub</a> so let me know if I&#x27;ve b0rked it somewhere.</p><p>Props to Mr. Doob and his <a href='http://mrdoob.com/projects/code-editor/'>code editor</a>, from which<br>the inspiration to this, and some handy implementation hints, came.</p><h3 id='stuff-used-to-make-this-'>Stuff used to make this:</h3><ul><li><a href='https://github.com/chjj'>marked</a> for Markdown parsing</li><li><a href='http://codemirror.net/'>CodeMirror</a> for the awesome syntax-highlighted editor</li><li><a href='http://softwaremaniacs.org/soft/highlight/en/'>highlight.js</a> for syntax highlighting in output code blocks</li><li><a href='https://github.com/dankogai/js-deflate'>js-deflate</a> for gzipping of data to make it fit in URLs</li></ul>"
             },
             {
-                "posted": "Thu Jan 30 2014 00:00:00 GMT+0000 (GMT Standard Time)",
+                "posted": "Wed Jan 29 2014 19:00:00 GMT-0500 (EST)",
                 "posted-formatted": "03 May 2015",
                 "title": "Second!",
                 "url": "dist/blog/second-post.json",
                 "content": "<p>This is my <em>second</em> post!</p>"
             },
             {
-                "posted": "Tue Jan 28 2014 00:00:00 GMT+0000 (GMT Standard Time)",
+                "posted": "Mon Jan 27 2014 19:00:00 GMT-0500 (EST)",
                 "posted-formatted": "03 May 2015",
                 "title": "First!",
                 "url": "dist/blog/first-post.json",
